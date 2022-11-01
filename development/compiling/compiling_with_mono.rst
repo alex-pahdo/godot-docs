@@ -212,16 +212,10 @@ The name of the data directory for the Godot editor will always be
 
 The ``Api`` subdirectory contains the Godot API assemblies. On macOS, if the
 Godot editor is distributed as a bundle, the contents of the data directory may
-be placed in the following locations:
+be placed in the following location:
 
 +-------------------------------------------------------+---------------------------------------------------------------+
-| ``bin/data.mono.<platform>.<bits>.<target>/Api``      | ``<bundle_name>.app/Contents/Frameworks/GodotSharp/Api``      |
-+-------------------------------------------------------+---------------------------------------------------------------+
-| ``bin/data.mono.<platform>.<bits>.<target>/Mono/lib`` | ``<bundle_name>.app/Contents/Frameworks/GodotSharp/Mono/lib`` |
-+-------------------------------------------------------+---------------------------------------------------------------+
-| ``bin/data.mono.<platform>.<bits>.<target>/Mono/etc`` | ``<bundle_name>.app/Contents/Resources/GodotSharp/Mono/etc``  |
-+-------------------------------------------------------+---------------------------------------------------------------+
-| ``bin/data.mono.<platform>.<bits>.<target>/Tools``    | ``<bundle_name>.app/Contents/Frameworks/GodotSharp/Tools``    |
+| ``bin/GodotSharp``                                    | ``<bundle_name>.app/Contents/Resources/GodotSharp``           |
 +-------------------------------------------------------+---------------------------------------------------------------+
 
 The ``Mono`` subdirectory is optional. It will be needed when distributing the
